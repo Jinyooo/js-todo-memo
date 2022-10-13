@@ -1,0 +1,71 @@
+.hidden {
+    display: none ;
+}
+
+#clock {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 7px black;
+    font-size: 4em;
+}
+#greeting {
+    text-align: center;
+    color: white;
+}
+form {
+    text-align: center;
+}
+form input[type="text"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: white 1px solid;
+}
+form input[type="text"]::placeholder {
+    color: white;
+    outline: none;
+}
+form input[type="text"]:focus {
+    background-color: black;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+form input[type="submit"], input[type="button"] {
+    background-color: lightgrey;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+form input[type="submit"]:hover {
+    background-color: lightblue;
+}
+form input[type="button"]:hover {
+    background-color: lightpink;
+}
+
+#todo-board  li {
+    list-style-type: none;
+    border-bottom: 1px solid white;
+    margin: 10px;
+    
+}
+
+button {
+    border-radius: 20px;
+    background-color: rgba( 255, 255, 255, 0.5);
+    color: red;
+
+}
+
+.flex {
+    display: flex;
+    margin: 30px 10px;
+    flex-wrap: wrap;
+}
+.flex div {
+    background-color: rgba( 255, 255, 255, 0.5);
+    margin: 10px;
+    padding: 20px;
+    word-break: break-word;
+}
